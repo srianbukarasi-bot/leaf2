@@ -503,7 +503,7 @@ def load_model():
                 id=GOOGLE_DRIVE_FILE_ID,
                 output=MODEL_PATH,
                 quiet=False,
-                fuzzy=True,
+               
             )
         except Exception as e:
             raise RuntimeError(
